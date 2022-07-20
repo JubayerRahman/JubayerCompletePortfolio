@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/c74447f892.js" crossorigin="anonymous"></script>
+    <title>Jubayer Rahman</title>
+    <link rel="icon" type="image/x-icon" href="./faviIcon.jpg">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="nevbar" id="menu">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light text-white d-flex flex-row-reverse">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img id="logo" src="./Images/logo.png">
+                </a>
+                  <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link text-white" id="nevlink" href="#">Home</a>
+                      <a class="nav-link text-white" id="nevlink" href="#about">About</a>
+                      <a class="nav-link text-white" id="nevlink" href="#services">Services</a>
+                      <a class="nav-link text-white" id="nevlink" href="#portfolio">Portfolio</a>
+                      <a class="nav-link text-white" id="nevlink" href="#contact">Contact</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+    <!-- End of Navbar -->
+    <!-- Starting of HeroSectuion -->
+    <div class="herosection" id="herosection">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12" id="backgroung">
+              <h1 id="name">Hi, I am <br> <span id="jubayer">Jubayer Rahman</span></h1>
+            </div>
+          </div>
+            
+        </div>
+    </div>
+    <!-- End of HeroSection -->
+    <!-- Starting of Aout Section -->
+    <div class="aboutSection" id="aboutSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4" >
+            <img id="myImage" class="img-fluid" src="./Images/myImage.jpg" alt="">
+          </div>
+          <div class="col-sm-8" id="abouttext">
+            <h1 id="about">About Me</h1>
+            <p>hi, I am Jubayer Rahman. My nickname is Ohee. There is nothing much To write about me. I am a lazy guy who likes to make beautiful and attractive websites. It attracts me to learn, make and update new designs, and systems.  This attraction of mine made me learn HTML at a very young age after that it was fun for me to learn and make new things. The satisfaction of making something with your own hand is amazing which inspires and excites me to do new things.</p>
+
+            <a  onclick="skills()" id="skills" class="abourButton">Skills &nbsp; </a>
+            <a  onclick="experience()" id="experience" class="abourButton">&nbsp; Experience &nbsp; </a>
+            <a  onclick="education()" id="education" class="abourButton"> &nbsp;Education </a>
+            <!-- Skills Data -->
+            <div class="skillData" id="skillData">
+              <h3 class="skillTittle" id="skillTittle">Web Development</h3>
+              <p class="skillTopics">HTML, CSS, BOOtstrap, JS, DOM, WORDPRESS</p>
+              <h3 class="skillTittle">Graphis Design</h3>
+              <p class="skillTopics">Photoshop, Canva, Business-cards, Flyer, Poters, Logos, etc... </p>
+              <h3 class="skillTittle">Basic Computer</h3>
+              <p class="skillTopics">M.S word, Excel, PowerPoint</p>
+            </div>
+              <!-- Experience Data -->
+            <div class="skillData" id="experienceData">
+              <h3 class="skillTittle" id="experienceTittle">Web Development</h3>
+              <p class="skillTopics">2 years experience of Freelancing in fiverr</p>
+            </div>
+            <!-- Education Data -->
+            <div class="skillData" id="educationData">
+              <h3 class="skillTittle" id="skillTittle">Secondary School Certificate</h3>
+              <p class="skillTopics">I collected my S.S.C certificate from Hasan Ali Govt High School. I was a student in the science group.</p>
+              <h3 class="skillTittle">Diploma in Computer Technology</h3>
+              <p class="skillTopics">Currently, I am studying at Feni polytechnic institute In the department of computer technology.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Ending of about Section -->
+    <!-- Starting of services Section -->
+    <div class="services" id="services">
+      <div class="container">
+        <h1 id="services">My Services</h1>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" id="card">
+              <div class="card-body">
+                <img id="icon" style="margin-bottom: 30px;" src="./Images/graphicsIcon.png" alt="">
+                <h5 class="card-title">Graphics Design</h5>
+                <p class="card-text">I have learned graphic design for a long time. I have practiced for almost 2 years. I can design almost all kinds of stationary and advertising graphic designs, such as business cards, flyers, posters, and logos.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" id="card">
+              <div class="card-body">
+                <img id="icon" style="height:100px ;" src="./Images/webIcon.png" alt="">
+                <h5 class="card-title">Website Design</h5>
+                <p class="card-text">I can design attractive and responsive websites for companies of personal use. I will use Html, CSS, Bootstrap, javascript, and other languages or frameworks I can or will use if necessary.  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" id="card">
+              <div class="card-body">
+                <img id="icon" style="margin-bottom: 30px;" src="./Images/wpIcon.png" alt="">
+                <h5 class="card-title">Wordpress Design</h5>
+                <p class="card-text">WordPress is a popular and most used CMS for web designing. I can develop an active WordPress website such as landing pages, portfolio websites, eCommerce websites, business portfolios, and many more. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of services Section -->
+    <!-- Starting of Portfolio Section -->
+    <div class="services" id="portfolio">
+      <div class="container">
+        <h1 id="portfolio">My Portfolio</h1>
+        <div class="row">
+          <div class="col-sm-4" id="portfoliodata">
+            <img id="pfImg" src="./Images/graphicDesign.jpg" alt="...">
+            <div class="data">
+              <p>Here are some of my previous designs in the graphics design field. Hope you can find something you like.</p>
+            <a href="https://www.behance.net/oheeoree106e4d" target="_blank"> <img style="height:30px;" src="./Images/linkIcon.png" alt=""></a>
+            </div>
+          </div>
+          <div class="col-sm-4" id="portfoliodata">
+            <img id="pfImg" src="./Images/webDesign.png" alt="...">
+            <div class="data">
+              <p>I have made various types of web pages and websites in different fiend. I tried to collect them all in one place hope you can get some ideas about my skills from here.</p>
+            <a href="https://github.com/JubayerRahman" target="_blank"> <img style="height:30px;" src="./Images/linkIcon.png" alt=""></a>
+            </div>
+          </div>
+          <div class="col-sm-4" id="portfoliodata">
+            <img id="pfImg"  src="./Images/wordpressDesign.jpeg" class="img-fluid" alt="...">
+            <div class="data">
+              <p>I have worked on different projects in WordPress for different clients and companies in various countries. You can have a look at their reviews about my services.</p>
+            <a href="https://www.fiverr.com/jubayer_rahman" target="_blank"> <img style="height:30px;" src="./Images/linkIcon.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Portfolio Section -->
+    <!-- Starting of Contect section -->
+    <div class="contect">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4" >
+            <h1 id="contact">Contact Me</h1>
+            <div class="info">
+              <p><i style="color:#ff004f;" class="fa-solid fa-paper-plane"></i> Jubayerr398@gmail.com</p>
+                <p><i style="color:#ff004f;" class="fa-solid fa-phone"></i> 01853062525</p>
+            </div>
+            <div class="socialLink">
+              <a style="color:#ff004f;"  href="https://www.linkedin.com/in/jubayer-rahman/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a style="color:#ff004f;"  href="https://github.com/JubayerRahman" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+              <a style="color:#ff004f;"  href="https://www.facebook.com/15855jubayer" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-8" id="form">
+            <form name="submit-to-google-sheet">
+            <div class="mb-3">
+
+              <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+              <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email here">
+            </div>
+            <div class="mb-3">
+              <textarea name="message" class="form-control" id="textarea" placeholder="Your Message" rows="5"></textarea>
+            </div>
+            <div class="mb-3">
+              <button id="send">Send</button>
+            </div>
+          </form>
+          <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Ending of contect section -->
+    <footer id="footer">
+      <p>Desined and coded by Jubayer Rahman</p>
+    </footer>
+    <!-- Bootstrap js Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- main Js -->
+    <script src="./main.js"></script>
+    <!-- Google Form URL -->
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbw9ROia_gj8opNnrw7UCsYxs_er1acPOnQ7C4T1CaXCUjzUvP_tWjKyZhcvRJzt7DTBYQ/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML="Message send successfully!! "
+            setTimeout(function(){
+              msg.innerHTML=""
+            }, 5000)
+            form.reset();
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+</body>
+</html>

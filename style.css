@@ -20,9 +20,6 @@ body{
 #nevlink:active{
     color:rgb(60, 60, 191) ;
 }
-.navbar{
-    position:fixed;
-}
 /* #herosection{
     background-image: url(./Images/heroSectionBg.png);
     background-repeat: no-repeat;

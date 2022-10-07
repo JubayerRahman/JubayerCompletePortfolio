@@ -2,9 +2,6 @@ body{
     background-color: #37383A;
     color: white;
 }
-.navbar{
-    position:fixed;
-}
 #logo{
     width: 145px;
     padding: 0%;
@@ -22,6 +19,9 @@ body{
 }
 #nevlink:active{
     color:rgb(60, 60, 191) ;
+}
+.navbar{
+    position:fixed;
 }
 /* #herosection{
     background-image: url(./Images/heroSectionBg.png);

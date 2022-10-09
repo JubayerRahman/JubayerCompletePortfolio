@@ -20,6 +20,9 @@ body{
 #nevlink:active{
     color:rgb(60, 60, 191) ;
 }
+.nevbar{
+    position:sticky;
+}
 /* #herosection{
     background-image: url(./Images/heroSectionBg.png);
     background-repeat: no-repeat;

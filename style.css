@@ -21,7 +21,7 @@ body{
     color:rgb(60, 60, 191) ;
 }
 .nevbar{
-    position:sticky;
+    position: sticky;
 }
 /* #herosection{
     background-image: url(./Images/heroSectionBg.png);

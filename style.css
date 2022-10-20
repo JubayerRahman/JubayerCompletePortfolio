@@ -79,7 +79,6 @@ body{
 }
 #about{
 padding-top:30px;
-padding-bottom:30px;
 }
 #myImage{
     height: 400px;
@@ -102,6 +101,7 @@ padding-bottom:30px;
 
 .skillData{
     margin-top: 35px;
+    padding-bottom:30px;
 }
 .skillTopics{
     color: rgb(223, 86, 86) ;

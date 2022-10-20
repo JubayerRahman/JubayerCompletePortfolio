@@ -1,6 +1,7 @@
 body{
     background-color: #37383A;
     color: white;
+    scroll-behavior:smooth;
 }
 #logo{
     width: 145px;
